@@ -1,0 +1,84 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    background-size:300px 180px;
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#Espana{
+  color:red;
+}
+
+#Italia{
+  color:orange;
+}
+
+#Grecia{
+  color:blue;
+}
+
+#Alemania{
+  color:FireBrick;
+}
+
+.banderaEspana{
+  background-image: url("https://img.freepik.com/vector-gratis/ilustracion-bandera-espana_53876-18168.jpg?size=626&ext=jpg&ga=GA1.1.417342198.1710374400&semt=ais");
+  }
+.banderaItalia{
+  background-image: url("https://img.freepik.com/vector-premium/bandera-italia-efecto-ondulado-proporcion-oficial_292608-2021.jpg");
+}
+.banderaGrecia{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/800px-Flag_of_Greece.svg.png");
+}
+.banderaAlemania{
+  background-image: url("https://www.shutterstock.com/image-vector/germany-flag-vector-eps10-german-600nw-540126295.jpg");
+}
